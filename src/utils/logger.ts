@@ -25,6 +25,7 @@ class Logger {
             yellow(
                 JSON.stringify(
                 Object.assign(
+                    {},
                     this.baseMessage, 
                     {message, timeStamp:new Date().toISOString()}
                     )
