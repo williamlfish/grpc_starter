@@ -1,0 +1,12 @@
+syntax = 'proto3';
+
+package starter;
+
+service StarterGateway {
+    rpc Health (Empty) returns (HealthResponse){};
+}
+message Empty{}
+message HealthResponse {
+    bool success = 1;
+    string message = 2;
+}
