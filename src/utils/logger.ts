@@ -12,8 +12,6 @@ type BaseMessage = {
 
 class Logger {
   readonly baseMessage: BaseMessage;
-  protected fullColor: boolean | undefined;
-  protected noColor: boolean | undefined;
   constructor({ service, version }: LogggerConstructor) {
     this.baseMessage = {
       service,
