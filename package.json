@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "src/**/*.ts": [
-        "yarn prettier"
+      "yarn prettier"
     ]
   },
   "husky": {
@@ -33,7 +33,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^4.2.3",
+    "husky": "^4.2.5",
     "lint-staged": "^10.0.7",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
@@ -45,6 +45,7 @@
     "@grpc/grpc-js": "^1.0.3",
     "@grpc/proto-loader": "^0.5.4",
     "@types/node": "^13.7.1",
-    "chalk": "^4.0.0"
+    "chalk": "^4.0.0",
+    "install": "^0.13.0"
   }
 }
