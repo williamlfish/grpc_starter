@@ -22,7 +22,7 @@ class Logger {
     return console.log(
       yellow(
         JSON.stringify(
-          Object.assign({}, this.baseMessage, {
+          Object.assign( this.baseMessage, {
             message,
             timeStamp: new Date().toISOString()
           })
