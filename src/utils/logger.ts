@@ -1,4 +1,5 @@
 import { red, blue, yellow } from "chalk";
+
 type LogggerConstructor = {
   version: string;
   service: string;
